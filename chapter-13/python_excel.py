@@ -43,3 +43,7 @@ for row in sheet_1['A1':'C3']:
     for cell in row:
         print(cell.coordinate, cell.value)
     print('------ END OF ROW -------')
+
+
+# sheet_1.title = 'The new title'
+# wb.save('example_copy.xlsx')
